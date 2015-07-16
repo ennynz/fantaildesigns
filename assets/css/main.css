@@ -1,11 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 /* Reset */
 
@@ -47,6 +43,17 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+
+/*NAV IMAGE*/
+
+nav-img {
+  opacity: .95;
+  display: inline;
+  width: 3rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.47rem;
+  z-index: 1000;
+}
 
 /* Box Model */
 
