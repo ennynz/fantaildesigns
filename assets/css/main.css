@@ -2247,6 +2247,7 @@
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+        margin-top: 1.5rem;
 	}
 
 		input[type="submit"]:hover,
@@ -3636,6 +3637,8 @@
 		text-align: center;
 	}
 
+    }
+
 		#main > header h2 {
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
@@ -3730,6 +3733,13 @@
   -moz-box-shadow:0 0 1.5rem #111;
   max-width:940px;
 }
+
+/*Form*/
+
+label {
+  padding-top: 1.5rem;
+}
+
 
 /* Footer */
 
@@ -3846,3 +3856,7 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+input {
+  color:black;
+}
