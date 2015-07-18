@@ -1600,7 +1600,7 @@
 		position: relative;
 		top: -0.25em;
 	}
-
+    
 	header h3 + p {
 		font-size: 1.1em;
 	}
@@ -3859,4 +3859,24 @@ label {
 
 input {
   color:black;
+}
+
+/*    enny addition*/
+.nav-logo {
+  height: 2rem;
+  display: inline;
+  padding: .5rem 1rem 0 0;
+}
+
+.main-logo {
+  height: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  padding-bottom: 2.5rem;
+}
+
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+       cursor: pointer;
 }
